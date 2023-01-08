@@ -1,3 +1,5 @@
+package com.ligangit.stury.algorithm;
+
 /**
  * 动态规划算法
  */
@@ -33,7 +35,8 @@ public class DynamicProgramming {
             }
         }
 
-        System.out.println(result);
+        // 输出最后一个数据，即最终结果
+        System.out.println(result[3][4]);
 
 
 
